@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/information.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="imgBx">
+                <img src="{% static 'image/sur1.jpeg' %}">
+            </div>
+            <div class="content">
+                <h2>BACCHA</h2>
+                <p>You know what? I never, ever planned to like you this much, and I never thought you’d be on my mind this often. Came as a total surprise but I love it!</p>
+                <p>If I were asked to describe the color you represent, then I would have to go with rainbow because you are beautiful, magical and being with is like finding a treasure.</p>
+                <p>You are my best friend, my shoulder to lean on, the one person I know I can count on, you’re the love of my life, you’re my one, and only, you’re my everything.</p>
+                <p>If you asked me to I would walk miles to be with you but please never tell me to go away.</p>
+                <hr>
+                <h2>LOVE U BUGGU</h2>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imgBx">
+                <img src="{% static 'image/sur2.jpeg' %}">
+            </div>
+            <div class="content">
+                <h2>PILLU</h2>
+                <p>I am glad we are born in this era of smartphones, computers, etc. Otherwise, I would have to perfect climbing the wall outside your window just to get in touch with you.</p>
+                <p>I love you, As I have never loved another or ever will again, I love you with all that I am and all that I will ever be.</p>
+                <p>I saw you were perfect, and so I loved you. When I saw that you were not perfect, and I loved you even more.</p>
+                <p>You deserve the world, but since I cannot give that to you, I will give you the next best thing, which is my world.</p>
+                <hr>
+                <h2>LOVE U PIU</h2>
+            </div>
+        </div>
+    </div>
+    <div class="text-box">
+        <a href="{% url 'Birthday' %}" class="glow-on-hover"></a>
+    </div>
+
+</body>
+</html>
